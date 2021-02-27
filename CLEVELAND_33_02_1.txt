@@ -1,38 +1,3 @@
-@relation HEART_ANGIOGRAPHIC_STATUS
-@attribute Age3 numeric
-@attribute Sex4 {0,1}
-@attribute Cp9 {1,2,3,4}
-@attribute Trestbps10 numeric
-@attribute Htn11 {0,1}
-@attribute Chol12 numeric
-@attribute Smoke13 {0,1}
-@attribute Cigs14 numeric
-@attribute Years15 numeric
-@attribute Fbs16 {0,1}
-@attribute Dm17 {0,1}
-@attribute Famhist18 {0,1}
-@attribute Restecg19 {0,1,2}
-@attribute Dig23 {0,1}
-@attribute Prop24 {0,1}
-@attribute Nitr25 {0,1}
-@attribute Pro26 {0,1}
-@attribute Diuretic27 {0,1}
-@attribute Thaldur29 numeric
-@attribute Met31 numeric
-@attribute Thalach32 numeric
-@attribute Thalrest33 numeric
-@attribute Tpeakbps34 numeric
-@attribute Tpeakbpd35 numeric
-@attribute Trestbpd37 numeric
-@attribute Exang38 {0,1}
-@attribute Xhypo39 {0,1}
-@attribute Oldpeak40 numeric
-@attribute Slope41 {0,1,2,3}
-@attribute Rldv5e43 numeric
-@attribute Ca44 {0,1,2,3}
-@attribute Thal51 {1,2,3,4,5,6,7}
-@attribute Status58 {0,1}
-@data
 63,1,1,145,1,233,1,50,20,1,0,1,2,0,0,0,0,0,10.5,13,150,60,190,90,85,0,0,2.3,3,172,0,6,0
 67,1,4,160,1,286,1,40,40,0,0,1,2,0,1,0,0,0,9.5,13,108,64,160,90,90,1,0,1.5,2,185,3,3,1
 67,1,4,120,1,229,1,20,35,0,0,1,2,0,1,0,0,0,8.5,10,129,78,140,80,80,1,0,2.6,2,150,2,7,1
